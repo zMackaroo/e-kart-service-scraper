@@ -1,0 +1,53 @@
+{
+  "sources": [
+    {
+      "id": "SMMarkets",
+      "name": "SM Markets",
+      "enabled": true,
+      "scraper": "sm_markets",
+      "base_url": "https://smmarkets.ph/graphql",
+      "page_size": 24,
+      "max_pages": null,
+      "categories": [
+        { "id": "2398", "label": "price_drops" },
+        { "id": "660", "label": "fresh_meats" }
+      ]
+    },
+    {
+      "id": "Dali",
+      "name": "Dali Everyday Groceries",
+      "enabled": true,
+      "scraper": "dali",
+      "base_url": "https://svc-3-usf.hotyon.com/search",
+      "api_key": "29c4ef4c-859b-4a48-bec0-81cc404b2610",
+      "country": "PH",
+      "locale": "en",
+      "collection": "297374810186",
+      "page_size": 28,
+      "max_pages": null
+    },
+    {
+      "id": "WalterMart",
+      "name": "Walter Mart",
+      "enabled": true,
+      "scraper": "waltermart",
+      "base_url": "https://api.freshop.ncrcloud.com/1/products",
+      "app_key": "walter_mart",
+      "store_id": "1949",
+      "token": "283691a1346ad72c6652ab6c6652d1aa",
+      "page_size": 24,
+      "max_pages": null,
+      "fields": "id,name,unit_price,sale_price,cover_image,canonical_url,upc,size"
+    },
+    {
+      "id": "Robinsons",
+      "name": "Robinsons Supermarket",
+      "enabled": false,
+      "scraper": "robinsons",
+      "base_url": null,
+      "page_size": 24,
+      "max_pages": null,
+      "categories": []
+    }
+  ]
+}
